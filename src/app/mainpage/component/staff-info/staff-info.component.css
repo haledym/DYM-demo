@@ -47,13 +47,13 @@
         height: 360px;
         background-size: cover;
         &.pic1{
-            background-image: url("/assets/image/part4_1.png");
+            background-image: url("/assets/image/12.jpg");
         }
         &.pic2{
-            background-image: url("/assets/image/part4_2.png");
+            background-image: url("/assets/image/13.jpg");
         }
         &.pic3{
-            background-image: url("/assets/image/part4_2.png");
+            background-image: url("/assets/image/14.jpg");
         }
     }
     .end-text{
