@@ -1,0 +1,70 @@
+.top-staffs{
+    height: 870px;
+    background-color: #eeebe2;
+    .avt{
+        width: 230px;
+        height: 270px;
+        background-size: cover;
+        &.pic1{
+            background-image: url("/assets/image/part4_1.png");
+        }
+        &.pic2{
+            background-image: url("/assets/image/part4_2.png");
+        }
+    }
+    .content{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .short-info{
+        background: white;
+        text-align: center;
+        height: 51px;
+        font-size: 28px;
+    }
+    .description{
+        background: white;
+        border-radius: 50px;
+        padding: 20px 30px 10px 36px;
+        font-size: 27px;
+        width: 100%;
+
+    }
+}
+.top-model{
+    height: 580px;
+    background: #8a7055;
+    .gap-40px{
+        gap: 100px;
+    }
+    .start-text{
+        font-size: 32px;
+        color: white;
+        font-weight: bold;
+    }
+    .avt{
+        width: 250px;
+        height: 360px;
+        background-size: cover;
+        &.pic1{
+            background-image: url("/assets/image/part4_1.png");
+        }
+        &.pic2{
+            background-image: url("/assets/image/part4_2.png");
+        }
+        &.pic3{
+            background-image: url("/assets/image/part4_2.png");
+        }
+    }
+    .end-text{
+        font-size: 32px;
+        color: #fff14b;
+        font-weight: bold;
+    }
+}
+.img-part{
+    width: 100%;
+    height: 824px;
+    background-size: cover;
+    background-image: url("/assets/image/img_part.jpg");
+}
