@@ -31,6 +31,24 @@
 
     }
 }
+.sample-img{
+    height: 536px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* hide the overflow here not on the pseudo element */
+
+}
+.sample-img::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    z-index: -10;
+    transform: rotate(90deg);
+    background-image: url("/assets/image/Background.jpg");
+    background-size: contain;
+}
 .top-model{
     height: 580px;
     background: #8a7055;
