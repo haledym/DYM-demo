@@ -2,4 +2,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'arialb';
+    src: url("assets/fonts/FontsFree-Net-arial-bold.ttf");
+}
+@font-face {
+    font-family: 'yumin';
+    src: url("assets/fonts/yumin.ttf");
+}
+@font-face {
+    font-family: 'yuminl';
+    src: url("assets/fonts/yuminl.ttf");
+}
+@font-face {
+    font-family: 'yumindb';
+    src: url("assets/fonts/yumindb.ttf");
+}
+@font-face {
+    font-family: 'msmincho';
+    src: url("assets/fonts/MSMINCHO.TTF");
+}
+@font-face {
+    font-family: 'pmincho';
+    src: url("assets/fonts/ms-pmincho_bigfontsite.com.ttf");
+}
+@font-face {
+    font-family: 'meiryo';
+    src: url("assets/fonts/meiryo.ttc");
+}
+@font-face {
+    font-family: 'meiryob';
+    src: url("assets/fonts/meiryob.ttc");
+}
 

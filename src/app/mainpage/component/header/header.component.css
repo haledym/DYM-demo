@@ -3,8 +3,9 @@
     background-size: cover;
     background-image: url("/assets/image/background_header.png");
     font-size: 30px;
+    font-family: 'yumin';
     .inner{
-        background-color: #666666c9;
+        background-color: rgb(0 0 0 / 40%);
         position: relative;
         top: 0;
         left: 0;
@@ -12,9 +13,10 @@
         height: 530px;
         color: white;
         .title{
-            font-size: 60px;
-            font-weight: 700;
-            /* font-family: 'Yumin', sans-serif; */
+            font-size: 120px;
+            font-weight: Bold;
+            font-family: 'arialb';
+            line-height: 120px;
         }
     }
     .pd-50{

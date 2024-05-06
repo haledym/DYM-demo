@@ -1,0 +1,37 @@
+.event{
+    background-color: #ebe5dd;
+    text-align: center;
+    height: 820px;
+    .title{
+        padding-top: 50px;
+        font-family: 'yumin';
+        font-size: 45px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    .img-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        .part1{
+            width: 652px;
+        }
+        .part2{
+            width: 262px;
+            img{
+                width: 262px;
+            }
+            .spec-img{
+                height: 297px;
+            }
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .description{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}

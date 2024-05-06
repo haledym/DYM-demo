@@ -5,6 +5,8 @@ import { GeneralInfoComponent } from './component/general-info/general-info.comp
 import { MissionComponent } from './component/mission/mission.component';
 import { StaffInfoComponent } from './component/staff-info/staff-info.component';
 import { BenefitComponent } from './component/benefit/benefit.component';
+import { ExtraInfoAndImageComponent } from './component/extra-info-and-image/extra-info-and-image.component';
+import { EventComponent } from './component/event/event.component';
 
 @Component({
     selector: 'app-mainpage',
@@ -18,7 +20,9 @@ import { BenefitComponent } from './component/benefit/benefit.component';
         MissionComponent,
         StaffInfoComponent,
         BenefitComponent,
-        StaffInfoComponent
+        StaffInfoComponent,
+        EventComponent,
+        ExtraInfoAndImageComponent
     ]
 })
 export class MainpageComponent {

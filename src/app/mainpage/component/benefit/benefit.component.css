@@ -2,40 +2,88 @@
     .color-yl{
         color: #fff14b;
     }
+    .left-text{
+        font-family: 'yumindb';
+        font-size: 21px;
+    }
+    .lean-text{
+        font-family: 'yumindb';
+        font-size: 30px;
+        text-align: end;
+        .trans{
+            width: 700px;
+            transform-origin: center;
+            transform: rotate(20deg);
+            translate: 220px -40px;
+        }
+        .line-trans{
+            width: 700px;
+            transform-origin: center;
+            transform: rotate(20deg);
+            translate: 220px -40px;
+            display: flex;
+            justify-content: end;
+            hr{
+                width: 14px;
+                height: 1px;
+                border-color: #2f2722;
+                &.line-1{
+                    transform: rotate(230deg);
+                    translate: -38px -65px;
+                }
+                &.line-2{
+                    transform: rotate(275deg);
+                    translate: -37px -70px;
+                }
+                &.line-3{
+                    transform: rotate(130deg);
+                    translate: -35px -65px;
+                }
+            }
+        }
+    }
     .pdr-50{
         padding-right: 200px;
     }
     .top-title{
-        font-size: 66px;
+        font-size: 80px;
+        font-family: 'yumindb';
         background: linear-gradient(to right, black, black) no-repeat;
         background-size: 100% 3px;
         background-position: left bottom;
     }
-    /* .top-title::before{
-        content: "124";
-        display: inline-block;
-        position: absolute;
-        width: 100%;
-        height: 1080px;
-        z-index: -10;
-        background-size: contain;
-    } */
+    .lst{
+        font-size: 20px;
+        padding-right: 0 !important;
+    }
 
     ul{
         list-style: unset;
+        font-family: 'meiryo';
     }
     .box{
-        background: white;
+        background: #ffffff;
+        color: #2f2722;
         width: 170px;
         height: 170px;
         &.yl{
             background-color: #fff14b;
+            line-height: 22px;
         }
         text-align: center;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-family: 'meiryo';
+        .second-line{
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #b69d61;
+        }
     }
+    font-size: 24px;
     height: 530px;
     width: 100%;
     position: relative;
@@ -51,6 +99,12 @@
     transform: rotate(90deg);
     background-image: url("/assets/image/background_part3.jpg");
     background-size: contain;
+}
+.main-title{
+    font-family: 'yumin';
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 600;
 }
 .example{
     height: 440px;
@@ -69,9 +123,10 @@
         .box-text{
             width: 100%;
             overflow: hidden;
-            background: white;
+            background: #f5f2ee;
             font-size: 28px;
             text-align: center;
+            font-family: 'meiryo';
         }
     }
 }
