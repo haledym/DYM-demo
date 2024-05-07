@@ -7,10 +7,10 @@
         height: 270px;
         background-size: cover;
         &.pic1{
-            background-image: url("/assets/image/part4_1.png");
+            background-image: url("assets/image/part4_1.png");
         }
         &.pic2{
-            background-image: url("/assets/image/part4_2.png");
+            background-image: url("assets/image/part4_2.png");
         }
     }
     .content{
@@ -66,7 +66,7 @@
     height: 1080px;
     z-index: -10;
     transform: rotate(90deg);
-    background-image: url("/assets/image/Background.jpg");
+    background-image: url("assets/image/Background.jpg");
     background-size: contain;
 }
 .top-model{
@@ -86,13 +86,13 @@
         height: 360px;
         background-size: cover;
         &.pic1{
-            background-image: url("/assets/image/12.jpg");
+            background-image: url("assets/image/12.jpg");
         }
         &.pic2{
-            background-image: url("/assets/image/13.jpg");
+            background-image: url("assets/image/13.jpg");
         }
         &.pic3{
-            background-image: url("/assets/image/14.jpg");
+            background-image: url("assets/image/14.jpg");
         }
     }
     .end-text{
@@ -105,5 +105,5 @@
     width: 100%;
     height: 824px;
     background-size: cover;
-    background-image: url("/assets/image/img_part.jpg");
+    background-image: url("assets/image/img_part.jpg");
 }

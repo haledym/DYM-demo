@@ -22,9 +22,12 @@
       "ES2022",
       "dom"
     ],
-    // "paths": {
-    //   "@image/*": ["src/assets/i*"],
-    // }
+    "baseUrl": "./src",
+    "paths": {
+        "@assets/*": [
+            "assets/*"
+        ]
+    },
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

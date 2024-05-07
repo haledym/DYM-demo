@@ -13,7 +13,7 @@
     z-index: -10;
     transform: rotate(90deg);
     transform-origin: center;
-    background-image: url("/assets/image/bg-qr-part.jpg");
+    background-image: url("assets/image/bg-qr-part.jpg");
     background-repeat: no-repeat;
     background-size: 664px 1080px;
     

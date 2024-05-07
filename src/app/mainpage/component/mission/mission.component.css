@@ -12,16 +12,16 @@
         background-size: cover;
         height: 280px;
         &.pic1{
-            background-image: url("/assets/image/6.jpg");
+            background-image: url("assets/image/6.jpg");
         }
         &.pic2{
-            background-image: url("/assets/image/16.jpg");
+            background-image: url("assets/image/16.jpg");
         }
         &.pic3{
-            background-image: url("/assets/image/8.jpg");
+            background-image: url("assets/image/8.jpg");
         }
         &.pic4{
-            background-image: url("/assets/image/5.jpg");
+            background-image: url("assets/image/5.jpg");
         }
         .inner{
             background-color: #fdfdfd59;
